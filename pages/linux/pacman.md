@@ -26,6 +26,10 @@
 
 `pacman -Qe`
 
+- List orphan packages (unused dependencies):
+
+`pacman -Qqtd`
+
 - Find which package owns a certain file:
 
 `pacman -Qo {{filename}}`
