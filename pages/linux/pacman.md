@@ -37,3 +37,8 @@
 - Empty package cache to free up space:
 
 `pacman -Scc`
+
+- Mark package as explicitly or not explicitly installed
+
+`pacman -D --asexplicit {{package_name}}`
+`pacman -D --asdep {{package_name}}`
